@@ -1,0 +1,389 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronic Kidney Disease: Causes, Symptoms, Treatment & Alpha-Keto Analogues - Himeros Pharma</title>
+    <script src="https://cdn.tailwindcss.com?v=2"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eff6ff',100:'#dbeafe',200:'#bfdbfe',300:'#93c5fd',400:'#60a5fa',500:'#2563eb',600:'#1d4ed8',700:'#1e40af',800:'#1e3a8a',900:'#172554' },
+                        green: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',300:'#86efac',400:'#4ade80',500:'#22c55e',600:'#16a34a',700:'#15803d',800:'#166534',900:'#14532d' }
+                    },
+                    fontFamily: { 'inter':['Inter','sans-serif'], 'playfair':['Playfair Display','serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Inter',sans-serif; overflow-x:hidden; }
+        ::-webkit-scrollbar { width:8px; }
+        ::-webkit-scrollbar-track { background:#f1f5f9; }
+        ::-webkit-scrollbar-thumb { background:#93c5fd; border-radius:4px; }
+        ::-webkit-scrollbar-thumb:hover { background:#2563eb; }
+        .nav-link::after { content:''; position:absolute; bottom:-2px; left:0; width:0; height:2px; background:#22c55e; transition:width 0.3s ease; }
+        .nav-link:hover::after { width:100%; }
+        .mobile-menu { transform:translateX(100%); transition:transform 0.3s ease; }
+        .mobile-menu.open { transform:translateX(0); }
+        .footer-logo-wrap {
+            display: inline-flex;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.75rem;
+            background: transparent;
+        }
+        .footer-logo-wrap img {
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.25));
+        }
+        .page-transition-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            pointer-events: none;
+            background: #ffffff;
+            opacity: 0;
+            transition: opacity 0.25s ease;
+        }
+        @keyframes logoPop { 0% { transform: scale(0.2); } 55% { transform: scale(1.15); } 75% { transform: scale(0.95); } 100% { transform: scale(1); } }
+        .logo-pop { animation: logoPop 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.1s 1 backwards; transform-origin: left center; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <script>if(sessionStorage.getItem("loggedIn")==="true"){document.documentElement.setAttribute("data-auth","in")}else{document.documentElement.setAttribute("data-auth","out")}</script>
+        <div class="page-transition-overlay" id="pageTransition"></div>
+
+    <nav class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100" id="navbar">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16 lg:h-20">
+                <a href="index.html" class="flex items-center flex-shrink-0">
+                    <img src="assets/brand/himeros-logo-animated.gif" alt="Himeros Pharma Logo" class="h-16 lg:h-20 w-auto object-contain">
+                </a>
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="index.html" class="nav-link relative text-sm font-medium text-gray-700 hover:text-brand-600 transition-colors">Home</a>
+                    <a href="about.html" class="nav-link relative text-sm font-medium text-gray-700 hover:text-brand-600 transition-colors">About Us</a>
+                    <a href="segment.html" class="nav-link relative text-sm font-medium text-gray-700 hover:text-brand-600 transition-colors">Segment</a>
+                    <a href="products.html" class="nav-link relative text-sm font-medium text-gray-700 hover:text-brand-600 transition-colors">Products</a>
+                    <a href="blog.html" class="nav-link relative text-sm font-medium text-gray-700 hover:text-brand-600 transition-colors">Blog</a>
+                    <a href="books.html" class="nav-link relative text-sm font-medium text-gray-700 hover:text-brand-600 transition-colors">Books</a>
+                    <a href="gallery.html" class="nav-link relative text-sm font-medium text-gray-700 hover:text-brand-600 transition-colors">Gallery</a>
+                    
+                    <a href="career.html" class="nav-link relative text-sm font-medium text-gray-700 hover:text-brand-600 transition-colors">Career</a>
+<a href="contact.html" class="nav-link relative text-sm font-medium text-gray-700 hover:text-brand-600 transition-colors">Contact Us</a>
+                </div>
+                <div class="flex items-center gap-3">
+                    <button id="menuToggle" onclick="document.getElementById('mobileMenu').classList.add('open');document.getElementById('menuOverlay').classList.remove('hidden');document.body.style.overflow='hidden';" class="md:hidden p-2 text-gray-600 hover:text-brand-600 transition-colors">
+                        <span class="block w-6 h-0.5 bg-gray-700 rounded mb-1.5"></span>
+                        <span class="block w-6 h-0.5 bg-gray-700 rounded mb-1.5"></span>
+                        <span class="block w-6 h-0.5 bg-gray-700 rounded"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mobileMenu" class="mobile-menu fixed top-0 right-0 w-80 h-full bg-white z-50 shadow-2xl">
+        <div class="p-6">
+            <div class="flex justify-between items-center mb-8">
+                <img src="assets/brand/himeros-logo-animated.gif" alt="Himeros Pharma Logo" class="h-14 w-auto object-contain">
+                <button id="menuClose" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('menuOverlay').classList.add('hidden');document.body.style.overflow='';" class="p-2 text-gray-400 hover:text-gray-600"><i data-lucide="x" class="w-6 h-6"></i></button>
+            </div>
+            <div class="flex flex-col gap-1">
+                <a href="index.html" class="mobile-nav-link px-4 py-3 text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-lg transition-colors font-medium">Home</a>
+                <a href="about.html" class="mobile-nav-link px-4 py-3 text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-lg transition-colors font-medium">About Us</a>
+                <a href="segment.html" class="mobile-nav-link px-4 py-3 text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-lg transition-colors font-medium">Segment</a>
+                <a href="products.html" class="mobile-nav-link px-4 py-3 text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-lg transition-colors font-medium">Products</a>
+                <a href="blog.html" class="mobile-nav-link px-4 py-3 text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-lg transition-colors font-medium">Blog</a>
+                <a href="books.html" class="mobile-nav-link px-4 py-3 text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-lg transition-colors font-medium">Books</a>
+                <a href="gallery.html" class="mobile-nav-link px-4 py-3 text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-lg transition-colors font-medium">Gallery</a>
+                
+                <a href="career.html" class="mobile-nav-link px-4 py-3 text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-lg transition-colors font-medium">Career</a>
+<a href="contact.html" class="mobile-nav-link px-4 py-3 text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-lg transition-colors font-medium">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <div id="menuOverlay" onclick="document.getElementById('mobileMenu').classList.remove('open');this.classList.add('hidden');document.body.style.overflow='';" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+    <!-- Breadcrumb -->
+    <section class="bg-gray-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex items-center gap-2 text-sm text-gray-500">
+                <a href="index.html" class="hover:text-brand-600 transition-colors">Home</a>
+                <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                <a href="blog.html" class="hover:text-brand-600 transition-colors">Blog</a>
+                <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                <span class="text-gray-800 font-medium">Chronic Kidney Disease: Causes, Symptoms, Treatment &amp; the Role of Alpha-Keto Analogues</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="py-16 lg:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-3 py-1 rounded-full">Nephrology</span>
+                <span class="text-xs text-gray-400">Oct 2026</span>
+            </div>
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-8">Chronic Kidney Disease: Causes, Symptoms, Treatment &amp; the Role of Alpha-Keto Analogues</h1>
+            <div class="rounded-xl overflow-hidden mb-8">
+                <img src="assets/blog/blog-4.png" alt="Chronic Kidney Disease" class="w-full h-[400px] object-cover" loading="lazy" decoding="async">
+            </div>
+            <div class="prose max-w-none text-gray-600 leading-relaxed space-y-5">
+                <p>Kidney disease is broadly classified into two main types:</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 pt-4">1. Acute Kidney Injury</h2>
+                <p>This is where the kidney gets affected suddenly. When we treat the cause, the kidney improves nearly to normal.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 pt-4">2. Chronic Kidney Disease</h2>
+                <p>This means there is kidney disease present for more than three months. Chronic kidney disease is one of the leading causes of mortality and morbidity among all non-communicable diseases. Chronic kidney disease affects approximately 13.24% of adults in India. Based on recent community-based systematic reviews, India ranks second globally with an estimated 138 million cases of chronic kidney disease.</p>
+                <p>By gender, prevalence is roughly 14.8% for men and 13.51% for women. Surprisingly, by location, rural areas show a higher prevalence of chronic kidney disease at 15.34% compared to 10.65% in the urban regions.</p>
+                <p>This could be due to late detection, less awareness, and a variety of kidney diseases which are more prevalent in rural areas. Over time, national studies indicate an upward trend, rising in prevalence of chronic kidney disease from 11.12% during 2011-2017 to 16.38% during 2018-2023.</p>
+                <p>State-level data shows high prevalence in places like Haryana (316 per lakh population) and high mortality burdens in states like Telangana.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 pt-4">Causes of Chronic Kidney Disease</h2>
+                <p>Now, coming to the causes of chronic kidney disease:</p>
+                <p>With India being the diabetes capital of the world, diabetes is the leading cause of chronic kidney disease. Along with hypertension, these two conditions are the leading drivers of CKD in India. A high prevalence of obesity, poor lifestyle, smoking, and rising metabolic syndrome significantly increases the risk of diabetes and hypertension, and hence chronic kidney disease.</p>
+                <p>Chronic glomerulonephritis.</p>
+                <p>The fourth, and most important nowadays in India, is chronic kidney disease of unknown origin. In certain rural pockets of Andhra Pradesh, Telangana, Odisha, Chhattisgarh, Madhya Pradesh, and West Bengal, there is a high prevalence of CKD among rural populations known as chronic kidney disease of unknown origin. In these patients, condition is relatively preserved until the end stage of the disease: they are not symptomatic, their appetite is okay, and there is no swelling of the feet, so they present late.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 pt-4">Signs and Symptoms of Chronic Kidney Disease</h2>
+                <p>In the early stages of chronic kidney disease, signs and symptoms are almost nonexistent; it is asymptomatic. As it progresses, it causes swelling of the feet, swelling of the body, anemia, weakness, poor appetite, lethargy, breathing difficulty, and so forth, but mostly in the late stages.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 pt-4">Stages of Chronic Kidney Disease</h2>
+                <p>Chronic kidney disease has different stages: stage 1, stage 2, stage 3, stage 4, stage 5, and stage 5 with renal replacement therapy. Renal Replacement Therapy: Dialysis and Kidney Transplant. When we talk about renal replacement therapy, there are three types:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Abdominal or peritoneal dialysis.</li>
+                    <li>Hemodialysis, where we purify the blood through a machine and return it to the patient.</li>
+                    <li>Renal transplant, which is the third, most successful, and gold-standard option.</li>
+                </ul>
+                <p>Any kind of dialysis is costly, transportation is a problem, and maintenance of the treatment is a huge expense. When we talk about cost, it is not only a burden for the patient, but also for society and the government, especially where they provide free dialysis or free treatment after a transplant. It is basically a social burden.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 pt-4">Treatment of Chronic Kidney Disease</h2>
+                <p>The purpose of treatment for chronic kidney disease is to retard its progression so that it slows down and takes many years before reaching end stage. Chronic kidney disease will progress anyway, but we have to slow the rate of progression.</p>
+                <p>When we talk about diabetic kidney disease, which is the most common cause of chronic kidney disease, the main treatment involves:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Controlling sugar</li>
+                    <li>Controlling blood pressure</li>
+                    <li>Lifestyle modifications: proper diet, physical activity, avoiding smoking</li>
+                    <li>Avoiding over-the-counter medications like painkillers, gas medicine (like PPIs), and unwanted antibiotics, and so forth</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-gray-900 pt-4">Four Pillars of Pharmacological Treatment for Chronic Kidney Disease</h2>
+                <p>When it comes to the pharmacological treatment of chronic kidney disease, including diabetic kidney disease, we have four pillars of medication:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>ACE inhibitors and ARBs</li>
+                    <li>SGLT2 inhibitors</li>
+                    <li>Non-steroidal MRAs</li>
+                    <li>GLP-1 receptor agonists</li>
+                </ul>
+                <p>However, we have seen that in spite of doing everything, controlling blood sugar, controlling blood pressure, and controlling the protein leakage in urine, the kidney disease progresses.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 pt-4">Role of Diet in Chronic Kidney Disease</h2>
+                <p>Now, one of the pillars of the treatment of chronic kidney disease is diet. When we talk about diet, we talk about protein intake. When we talk about protein intake, there are two key aspects:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Type of protein: plant protein versus animal protein</li>
+                    <li>Quantity: how much protein is consumed</li>
+                </ul>
+                <p><strong>Plant Versus Animal Protein:</strong> Plant protein is mainly alkali-inducing, whereas animal protein causes more acidosis. Because plant protein has less propensity to produce acidosis, it is believed to be more kidney-friendly.</p>
+                <p><strong>Quantity of Protein Intake:</strong> Normal protein intake: 1 g/kg body weight in non-diabetic patients, and around 1.2 g/kg body weight in diabetic patients.</p>
+                <p>Chronic kidney disease (CKD): Protein intake is reduced to 0.6 g/kg body weight in non-diabetic patients, and 0.8 to 1 g/kg body weight in diabetic patients.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 pt-4">Alpha-Keto Analogues: Role in Chronic Kidney Disease Management</h2>
+                <p>It has been found that certain amino acids cause more acid production, and those amino acids may be toxic for the kidney.</p>
+                <p>Alpha-keto analogues are nitrogen-free protein substitutes used alongside a low-protein diet to slow CKD progression and reduce uremic toxins without causing malnutrition. In CKD, we can reduce protein intake to 0.3 to 0.4 g/kg body weight to slow disease progression; however, the risk of developing malnutrition becomes very high. Studies have found that adding alpha-keto analogues, which lack the nitrogen component, helps mitigate this risk while managing nitrogen load. If we prescribe a very low protein diet, patients may develop malnutrition. To avoid that, we can supplement with alpha-keto analogues.</p>
+                <p>They provide the carbon skeleton of essential amino acids without an attached amino group. Because there is no amino group, nitrogen production is reduced; they capture excess waste nitrogen in the body to rebuild essential amino acids, cutting down urea production. Lower nitrogen waste reduces the workload and hyperfiltration stress on remaining nephrons. Therefore, they help safely maintain a very low protein diet (0.3 to 0.4 grams per kg body weight) to postpone end-stage kidney disease.</p>
+                <p>They also improve bone health by lowering serum phosphorus and parathyroid hormone levels in advanced CKD stages, and they preserve nutrition with proper nitrogen and protein balance without triggering protein-energy malnutrition.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 pt-4">Alpha-Keto Analogues Alongside Recommended CKD Therapies</h2>
+                <p>Along with recommended therapies like RAAS inhibitors, SGLT2 inhibitors, finerenone, and GLP-1 receptor agonists, I strongly believe this dietary approach (a low-salt and limited-protein diet) forms the basis for the success of all these molecules. Alpha-keto analogues play a significant role in maintaining eGFR and retarding the progression of chronic kidney disease.</p>
+                <p>It has been mentioned in the KDIGO guidelines as a recommended therapy. While many supplements are available in India, those are not well-proven; however, KDIGO recommendations represent international society guidelines for the treatment of CKD. Alpha-keto analogues have a major role to play in retarding the progression of chronic kidney disease, so I hope patients will benefit from this therapy.</p>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-100">
+                <a href="blog.html" class="inline-flex items-center gap-2 text-brand-600 font-semibold hover:text-green-600 transition-colors"><i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Blog</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0b1f3a] text-white">
+        <div class="max-w-7xl mx-auto px-4 pt-16 pb-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <div>
+                    <div class="footer-logo-wrap mb-5">
+                        <img src="assets/brand/himeros-white-logo.png"
+                            alt="Himeros Pharma Logo" class="h-20 w-auto object-contain">
+                    </div>
+                    <p class="text-gray-300 text-sm leading-relaxed mb-6">Transforming pharmaceutical science into meaningful healthcare solutions.</p>
+                    <div class="flex gap-3">
+                        <a href="https://www.linkedin.com/company/himeros-pharma/posts/?feedView=all" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-brand-600 transition-colors">
+                            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/himerospharma?igsi=MW01NDI5emR3YmduNQ%3D%3D&utm_source=qr" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-brand-600 transition-colors">
+                            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://youtube.com/@himerospharma-n6p?si=vOHvi_RKTuSbyd07" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-brand-600 transition-colors">
+                            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white mb-5 tracking-wider text-sm">QUICK LINKS</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-300 text-sm hover:text-green-400 transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 text-sm hover:text-green-400 transition-colors">About Us</a></li>
+                        <li><a href="products.html" class="text-gray-300 text-sm hover:text-green-400 transition-colors">Products</a></li>
+                        <li><a href="blog.html" class="text-gray-300 text-sm hover:text-green-400 transition-colors">Blog</a></li>
+                        <li><a href="gallery.html" class="text-gray-300 text-sm hover:text-green-400 transition-colors">Gallery</a></li>
+                        <li><a href="career.html" class="text-gray-300 text-sm hover:text-green-400 transition-colors">Career</a></li>
+                        <li><a href="contact.html" class="text-gray-300 text-sm hover:text-green-400 transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white mb-5 tracking-wider text-sm">SEGMENTS</h4>
+                    <ul class="space-y-3">
+                        <li><a href="segment-andrology.html" class="text-gray-300 text-sm hover:text-green-400 transition-colors">Andrology / Sexology</a></li>
+                        <li><a href="segment-nephrology.html" class="text-gray-300 text-sm hover:text-green-400 transition-colors">Nephrology / Urology</a></li>
+                        <li><a href="segment-gynecology.html" class="text-gray-300 text-sm hover:text-green-400 transition-colors">IVF / Gynecology</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white mb-5 tracking-wider text-sm">CONTACT</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <span class="mt-0.5 text-green-400 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </span>
+                            <span class="text-gray-300 text-sm">Himeros Pharma, India</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-0.5 text-green-400 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </span>
+                            <a href="mailto:info@himerospharma.com" class="text-gray-300 text-sm hover:text-green-400 transition-colors">info@himerospharma.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-gray-400 text-sm">&copy; 2025 Himeros Pharma. All rights reserved.</p>
+                <p class="text-gray-400 text-sm">Crafted with care for healthcare professionals</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="fixed bottom-6 right-6 w-12 h-12 bg-brand-600 text-white rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 hover:bg-brand-700 hover:shadow-xl z-50">
+        <i data-lucide="chevron-up" class="w-5 h-5"></i>
+    </button>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const menuClose = document.getElementById('menuClose');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+        function openMenu() { mobileMenu.classList.add('open'); menuOverlay.classList.remove('hidden'); document.body.style.overflow = 'hidden'; }
+        function closeMenu() { mobileMenu.classList.remove('open'); menuOverlay.classList.add('hidden'); document.body.style.overflow = ''; }
+        menuToggle.addEventListener('click', openMenu);
+        menuClose.addEventListener('click', closeMenu);
+        menuOverlay.addEventListener('click', closeMenu);
+        mobileNavLinks.forEach(link => link.addEventListener('click', closeMenu));
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) navbar.classList.add('shadow-md');
+            else navbar.classList.remove('shadow-md');
+        });
+        const newsletterForm = document.getElementById('newsletterForm');
+        const newsletterMsg = document.getElementById('newsletterMsg');
+        if (newsletterForm) { newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            newsletterMsg.classList.remove('hidden');
+            newsletterMsg.className = 'text-xs mt-2 text-green-400';
+            newsletterMsg.textContent = '✓ Subscribed successfully!';
+            this.reset();
+            setTimeout(() => { newsletterMsg.classList.add('hidden'); }, 4000);
+        }); }
+        const backToTop = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 600) { backToTop.style.opacity = '1'; backToTop.style.pointerEvents = 'auto'; }
+            else { backToTop.style.opacity = '0'; backToTop.style.pointerEvents = 'none'; }
+        });
+        backToTop.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        setTimeout(() => lucide.createIcons(), 200);
+
+        // Auth state management
+        (function() {
+            if (document.documentElement.getAttribute("data-auth") === "in") {
+                var empId = sessionStorage.getItem("empName") || "EMP001";
+                var eid = document.getElementById("empNavId");
+                var meid = document.getElementById("mobileEmpId");
+                if (eid) eid.textContent = empId;
+                if (meid) meid.textContent = empId;
+            }
+            try {
+                var ddMenu = document.getElementById("empDropdownMenu");
+                document.addEventListener("click", function() {
+                    if (ddMenu) ddMenu.classList.add("hidden");
+                });
+            } catch(e) {}
+            try {
+                function doLogout() {
+                    sessionStorage.removeItem("loggedIn");
+                    sessionStorage.removeItem("empName");
+                    window.location.href = 'index.html';
+                }
+                var loBtn = document.getElementById("logoutBtn");
+                var mLoBtn = document.getElementById("mobileLogoutBtn");
+                if (loBtn) loBtn.addEventListener("click", doLogout);
+                if (mLoBtn) mLoBtn.addEventListener("click", doLogout);
+            } catch(e) {}
+        })();
+        // Page Transition
+        (function () {
+            var overlay = document.getElementById('pageTransition');
+            window.addEventListener('pageshow', function() {
+                if (overlay) {
+                    overlay.style.animation = '';
+                    overlay.style.transition = '';
+                    overlay.style.opacity = '';
+                }
+            });
+            document.querySelectorAll('a[href$=".html"]').forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    var href = this.getAttribute('href');
+                    if (href.startsWith('http') && !href.includes(window.location.host)) return;
+                    e.preventDefault();
+                    if (overlay) {
+                        overlay.style.animation = 'none';
+                        void overlay.offsetHeight;
+                        overlay.style.transition = 'opacity 0.3s ease';
+                        overlay.style.opacity = '1';
+                        setTimeout(function() { window.location.href = href; }, 400);
+                    } else {
+                        window.location.href = href;
+                    }
+                });
+            });
+        })();
+    </script>
+
+    <script>
+        // Logo pop: play once per browser session on the first page view.
+        (function () {
+            try {
+                if (sessionStorage.getItem('logoPopped')) return;
+                sessionStorage.setItem('logoPopped', '1');
+                var img = document.querySelector('nav img');
+                if (!img) return;
+                var pop = function () { img.classList.add('logo-pop'); };
+                if (img.complete) { pop(); } else { img.addEventListener('load', pop); }
+            } catch (e) { }
+        })();
+    </script>
+</body>
+</html>
